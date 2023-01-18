@@ -1,5 +1,6 @@
 {
   "name": "personal-homepage",
+  "homepage": "https://krzysztof-gronski.github.io/Personal-Homepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
