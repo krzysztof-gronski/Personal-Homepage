@@ -1,5 +1,13 @@
 import { email } from "../email";
 import { SocialIcons } from "./SocialIcons";
+import {
+  Address,
+  Container,
+  EmailContainer,
+  EmailLink,
+  LetsTalk,
+  Paragraph,
+} from "./styled";
 
 export const Footer = () => (
   <Container>
