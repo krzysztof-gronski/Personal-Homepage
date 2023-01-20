@@ -83,7 +83,7 @@ export const Link = styled.a`
   color: ${({}) => theme.colors.primary};
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => α(theme.colors.primary, 0.3)};
-  paddin-bottom: 1px;
+  padding-bottom: 1px;
 
   &:hover {
     border-color: unset;

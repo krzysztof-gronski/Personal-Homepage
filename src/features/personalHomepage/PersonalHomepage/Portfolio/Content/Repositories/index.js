@@ -1,9 +1,20 @@
+import {
+  Description,
+  Link,
+  Links,
+  LinksRow,
+  LinksValue,
+  List,
+  Name,
+  Tile,
+} from "./styled";
+
 export const Repositories = ({ repositories }) => (
   <List>
-    {repositories.map(({ id, name, desription, homepage, html_url }) => (
+    {repositories.map(({ id, name, description, homepage, html_url }) => (
       <Tile key={id}>
         <Name>{name}</Name>
-        <Description>{desription1}</Description>
+        <Description>{description}</Description>
         <Links>
           {!!homepage && (
             <LinksRow>

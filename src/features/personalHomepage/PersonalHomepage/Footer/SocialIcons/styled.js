@@ -23,12 +23,12 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-color: ${(theme) => theme.colors.textPrimary}
-transition: color 0.3s;
+  color: ${(theme) => theme.colors.textPrimary};
+  transition: color 0.3s;
 
-&:hover{
-    color: ${({ theme }) => theme.colors.primary}
-}
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 
 export const styleIcon = (Icon) => styled(Icon)`

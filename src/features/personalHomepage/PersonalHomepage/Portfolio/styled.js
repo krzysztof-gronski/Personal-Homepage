@@ -24,7 +24,7 @@ export const MyRecentProjects = styled.h3`
   font-weight: normal;
   margin-top: 8px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) => {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 17px;
   }
 `;
