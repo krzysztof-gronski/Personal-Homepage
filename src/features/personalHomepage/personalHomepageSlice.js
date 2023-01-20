@@ -7,18 +7,18 @@ const personalHomepageSlice = createSlice({
         status: "initial",
     },
     reducers:{
-        fetchRepositories=()=>({
+        fetchRepositories: ()=>({
             repositories: null,
             status: "loading",
-        });
-        fetchRepositoriesSuccess=(_,{payload: repositories})=>({
+        }),
+        fetchRepositoriesSuccess: (_,{payload: repositories})=>({
             repositories,
             status: "success",
-        });
-        fetchRepositoriesError=()=>({
+        }),
+        fetchRepositoriesError: ()=>({
             repositories: null,
             status: "error",
-        });
+        }),
     },
 });
 
