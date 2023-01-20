@@ -13,7 +13,7 @@ import {
   ThisIs,
 } from "./styled";
 
-export const MainInformation = () => {
+export const MainInformation = () => (
   <Container>
     <Avatar src={portrait} alt="Krzysztof Gronski" />
     <div>
@@ -29,5 +29,5 @@ export const MainInformation = () => {
         Hire me
       </StyledButtonLink>
     </div>
-  </Container>;
-};
+  </Container>
+);
