@@ -7,15 +7,15 @@ import {
 } from "./personalHomepageSlice";
 
 function* fetchRepositoriesWorker({ payload: username }) {
-  try {
-    yield delay(2000);
-    const repositories = yield call(getRepositories, username);
-    yield put(fetchRepositoriesSuccess(repositories));
-  } catch (error) {
-    yield put(fetchRepositoriesError());
-  }
+  // try {
+  //   yield delay(2000);
+  //   const repositories = yield call(getRepositories, username);
+  //   yield put(fetchRepositoriesSuccess(repositories));
+  // } catch (error) {
+  //   yield put(fetchRepositoriesError());
+  // }
 }
 
 export function* personalHomepageSaga() {
-  yield takeLatest(fetchRepositories.type, fetchRepositoriesWorker);
+  // yield takeLatest(fetchRepositories.type, fetchRepositoriesWorker);
 }

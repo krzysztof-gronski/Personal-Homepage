@@ -3,22 +3,22 @@ import { createSlice } from "@reduxjs/toolkit";
 const personalHomepageSlice = createSlice({
     name: "personalHomepage",
     initialState:{
-        repositories: null,
-        status: "initial",
+        // repositories: null,
+        // status: "initial",
     },
     reducers:{
-        fetchRepositories: ()=>({
-            repositories: null,
-            status: "loading",
-        }),
-        fetchRepositoriesSuccess: (_,{payload: repositories})=>({
-            repositories,
-            status: "success",
-        }),
-        fetchRepositoriesError: ()=>({
-            repositories: null,
-            status: "error",
-        }),
+        // fetchRepositories: ()=>({
+        //     repositories: null,
+        //     status: "loading",
+        // }),
+        // fetchRepositoriesSuccess: (_,{payload: repositories})=>({
+        //     repositories,
+        //     status: "success",
+        // }),
+        // fetchRepositoriesError: ()=>({
+        //     repositories: null,
+        //     status: "error",
+        // }),
     },
 });
 

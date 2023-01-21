@@ -13,7 +13,7 @@ export const App = () => {
     <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
       <Normalize />
       <GlobalStyle />
-      <PersonalHomepageSlice />
+      {/* <PersonalHomepageSlice /> */}
     </ThemeProvider>
   );
 };

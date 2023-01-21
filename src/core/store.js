@@ -8,12 +8,12 @@ const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
-    personalHomepage: personalHomepageReducer,
-    theme: themeReducer,
+    // personalHomepage: personalHomepageReducer,
+    // theme: themeReducer,
   },
   middleware: [sagaMiddleware],
 });
 
-sagaMiddleware.run(rootSaga);
+// sagaMiddleware.run(rootSaga);
 
 export default store;
