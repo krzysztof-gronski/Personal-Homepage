@@ -8,5 +8,5 @@ function* saveIsDarkThemeInLocalStorageWorker() {
 }
 
 export function* themeSaga() {
-  yield takeLatest(toggleTheme.type, saveIsDarkThemeInLocalStorageWorker);
+  // yield takeLatest(toggleTheme.type, saveIsDarkThemeInLocalStorageWorker);
 }

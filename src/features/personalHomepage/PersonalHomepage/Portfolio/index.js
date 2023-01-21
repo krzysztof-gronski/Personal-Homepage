@@ -1,24 +1,24 @@
 import { useDispatch, useSelector } from "react-redux";
-import { githubUsername } from "./GithubUsername";
+import { githubUsername } from "./githubUsername";
 
 export const Portfolio = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const repositoriesStatus = useSelector(selectRepositoriesStatus);
-  const repositories = useSelector(selectRepositories);
+  // const repositoriesStatus = useSelector(selectRepositoriesStatus);
+  // const repositories = useSelector(selectRepositories);
 
-  useEffect(() => {
-    dispatch(fetchRepositories(githubUsername));
-  }, []);
+  // useEffect(() => {
+  //   dispatch(fetchRepositories(githubUsername));
+  // }, []);
 
   return (
-    <Section>
-      <Header>
-        <StyledGithubIcon />
-        <SubHeader>Portfolio</SubHeader>
-        <MyRecentProject>My recent projects</MyRecentProject>
-      </Header>
-      <Content status={repositoriesStatus} repositories={repositories} />
-    </Section>
+    // <Section>
+    //   <Header>
+    //     <StyledGithubIcon />
+    //     <SubHeader>Portfolio</SubHeader>
+    //     <MyRecentProject>My recent projects</MyRecentProject>
+    //   </Header>
+    //   <Content status={repositoriesStatus} repositories={repositories} />
+    // </Section>
   );
 };

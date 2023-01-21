@@ -7,15 +7,15 @@ export const ThemeSwitch = () => {
   const dispatch = useDispatch();
 
   return (
-    <Container>
-      <Button onClick={() => dispatch(toggleTheme())}>
-        <Text>Dark mode {isDarkTheme ? "on" : "off"}</Text>
-        <Box>
-          <Switch moveToRight={isDarkTheme}>
-            <Icon />
-          </Switch>
-        </Box>
-      </Button>
-    </Container>
+    // <Container>
+    //   <Button onClick={() => dispatch(toggleTheme())}>
+    //     <Text>Dark mode {isDarkTheme ? "on" : "off"}</Text>
+    //     <Box>
+    //       <Switch moveToRight={isDarkTheme}>
+    //         <Icon />
+    //       </Switch>
+    //     </Box>
+    //   </Button>
+    // </Container>
   );
 };

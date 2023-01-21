@@ -10,28 +10,29 @@ import rocketIcon from "./rocketIcon.png";
 
 export const PersonalHomepage = () => (
   // <Container>
-  //   {/* <ThemeSwitch/> */}
-  //   {/* <MainInformation /> */}
+  // //   {/* <ThemeSwitch/> */}
+  // //   {/* <MainInformation /> */}
 
-  //   <main>
-  //     {/* <Skills
-  //       title={
-  //         <>
-  //           My skillset includes <Icon src={toolsIcon} alt="" />
-  //         </>
-  //       }
-  //       skills={skills}
-  //     ></Skills>
-  //     <Skills
-  //       title={
-  //         <>
-  //           What I want to learn next` <Icon src={rocketIcon} alt="" />
-  //         </>
-  //       }
-  //       skills={nextSkills}
-  //     ></Skills>
-  //     <Portfolio /> */}
-  //   </main>
-  //   {/* <Footer /> */}
-  // </Container>
+  // //   <main>
+  // //     {/* <Skills
+  // //       title={
+  // //         <>
+  // //           My skillset includes <Icon src={toolsIcon} alt="" />
+  // //         </>
+  // //       }
+  // //       skills={skills}
+  // //     ></Skills>
+  // //     <Skills
+  // //       title={
+  // //         <>
+  // //           What I want to learn next` <Icon src={rocketIcon} alt="" />
+  // //         </>
+  // //       }
+  // //       skills={nextSkills}
+  // //     ></Skills>
+  // //     <Portfolio /> */}
+  // //   </main>
+  // //   {/* <Footer /> */}
+  // // </Container>
+  
 );
