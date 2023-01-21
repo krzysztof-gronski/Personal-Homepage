@@ -4,16 +4,16 @@ import { getIsDarkThemeFromLocalStorage } from "./ThemeSwitch/isDarkThemeLocalSt
 const themeSlice = createSlice({
   name: "theme",
   initialState: {
-    isDarkTheme: false,//getIsDarkThemeFromLocalStorage(),
+    isDarkTheme: getIsDarkThemeFromLocalStorage(),
   },
   reducers: {
-    // toggleTheme: (state) => {
-    //   state.isDarkTheme = !state.isDarkTheme;
-    // },
+    toggleTheme: (state) => {
+      state.isDarkTheme = !state.isDarkTheme;
+    },
   },
 });
 
-// export const { toggleTheme } = themeSlice.actions;
+export const { toggleTheme } = themeSlice.actions;
 
 const selectThemeSliceState = (state) => state.theme;
 export const selectIsDarkTheme = (state) =>

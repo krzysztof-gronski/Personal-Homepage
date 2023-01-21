@@ -80,7 +80,7 @@ export const LinksValue = styled.dd`
 `;
 
 export const Link = styled.a`
-  color: ${({}) => theme.colors.primary};
+  color: ${({theme}) => theme.colors.primary};
   text-decoration: none;
   border-bottom: 1px solid ${({ theme }) => α(theme.colors.primary, 0.3)};
   padding-bottom: 1px;

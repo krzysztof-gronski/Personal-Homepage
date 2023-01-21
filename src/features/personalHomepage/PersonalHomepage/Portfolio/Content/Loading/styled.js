@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ReactComponent as Spinner } from "./spinner.svg";
 
 const rotate = keyframes`
@@ -10,7 +10,7 @@ const rotate = keyframes`
 export const Container = styled.div`
   display: grid;
   justify-items: center;
-  color: ${({theme})=theme.colors.textPrimary};
+  color: ${({theme})=>theme.colors.textPrimary};
   text-align: center;
   margin-top: 88px;
   font-size: 20px;

@@ -23,7 +23,7 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-  color: ${(theme) => theme.colors.textPrimary};
+  color: ${({theme}) => theme.colors.textPrimary};
   transition: color 0.3s;
 
   &:hover {

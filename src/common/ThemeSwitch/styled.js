@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ReactComponent as LightIcon } from "./light.svg";
 
 export const Container = styled.div`
@@ -39,7 +39,7 @@ export const Box = styled.span`
 export const Switch = styled.span`
 display: flex;
 background: currentColor;
-border-radius: 50%
+border-radius: 50%;
 padding: 3px;
 transition: transform 0.3s;
 

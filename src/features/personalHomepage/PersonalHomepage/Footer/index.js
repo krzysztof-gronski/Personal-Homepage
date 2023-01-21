@@ -10,14 +10,15 @@ import {
 } from "./styled";
 
 export const Footer = () => (
-  // <Container>
-  //   <LetsTalk>Let's talk!</LetsTalk>
-  //   <Address>
-  //     <EmailContainer>
-  //       <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
-  //     </EmailContainer>
-  //     <Paragraph>Im open. Rdy to work.</Paragraph>
-  //     <SocialIcons />
-  //   </Address>
-  // </Container>
+  <Container>
+    <LetsTalk>Let's talk!</LetsTalk>
+    <Address>
+      <EmailContainer>
+        <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
+      </EmailContainer>
+      <Paragraph>Im open. Rdy to work.</Paragraph>
+      <SocialIcons />
+    </Address>
+  </Container>
+
 );

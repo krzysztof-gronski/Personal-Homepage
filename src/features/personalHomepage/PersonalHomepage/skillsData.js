@@ -1,3 +1,3 @@
-// export const skills = ["JS", "React"];
+export const skills = ["JS", "React"];
 
-// export const nextSkills = ["Tailwind", "Typescript"];
+export const nextSkills = ["Tailwind", "Typescript"];

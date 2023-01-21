@@ -4,16 +4,16 @@ import personalHomepageReducer from "../features/personalHomepage/personalHomepa
 import themeReducer from "../common/themeSlice";
 import rootSaga from "./rootSaga";
 
-// const sagaMiddleware = createSagaMiddleware();
+const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
     personalHomepage: personalHomepageReducer,
     theme: themeReducer,
   },
-  // middleware: [sagaMiddleware],
+  middleware: [sagaMiddleware],
 });
 
-// sagaMiddleware.run(rootSaga);
+sagaMiddleware.run(rootSaga);
 
 export default store;

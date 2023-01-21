@@ -3,20 +3,20 @@ import { ErrorBox } from "./ErrorBox";
 import { Repositories } from "./Repositories";
 
 export const Content = ({ status, repositories }) => {
-  // switch (status) {
-  //   case "initial":
-  //     return null;
+  switch (status) {
+    case "initial":
+      return null;
 
-  //   case "loading":
-  //     return <Loading />;
+    case "loading":
+      return <Loading />;
 
-  //   case "error":
-  //     return <ErrorBox />;
+    case "error":
+      return <ErrorBox />;
 
-  //   case "success":
-  //     return <Repositories repositories={repositories} />;
+    case "success":
+      return <Repositories repositories={repositories} />;
 
-  //   default:
-  //     throw new Error(`incorrect status: ${status}`);
+    default:
+      throw new Error(`incorrect status: ${status}`);
   }
 };
