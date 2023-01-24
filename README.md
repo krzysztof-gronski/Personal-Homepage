@@ -1,24 +1,27 @@
 
-# **TO DO LIST - REACT**
+# **PERSONAL HOMEPAGE - Krzysztof Gronski**
 
 ## Description
-A handy list used to save scheduled tasks. Allows you to add, delete and mark tasks as completed.
+Summary overview about the author, his career path and projects completed. 
+Uses Github API for repositories fetch. Contains necessary details to keep in touch ;) 
 
 ## Contents
-- Tasks list with input field
-- Buttons for managing the tasks
+- Brief info about the author
+- List of skills acquired
+- Portfolio projects published on Github
 
 ## Technologies
 - HTML
 - CSS
 - JS ES6+
-- React (Hooks, Router)
+- React (Hooks)
 - Redux (Toolkit, Saga)
+- Github API fetch
 
 ## Features
 - Visual styling
-- Sample Grid/Flexbox layouts
-- Media queries
+- CSS Grid/Flexbox layouts
+- Media queries (responsiveness)
 
 ## Demo
 https://krzysztof-gronski.github.io/Personal-Homepage
