@@ -27,7 +27,7 @@ Uses Github API for repositories fetch. Contains necessary details to keep in to
 https://krzysztof-gronski.github.io/Personal-Homepage
 
 ## Preview
-![homepagePreview](img/todolistPreview.gif)
+![homepagePreview](img/personalHomepagePreview.gif)
 
 
 ## Getting Started with Create React App
