@@ -22,7 +22,7 @@ export const MainInformation = () => (
       <Summary>
         <Icon src={faceIcon} />
         <Icon src={laptopIcon} />
-        im developer :O
+        im developer :O dsfkjdsnjns ;sn odsonsdnf ; osdn osif osiins oin [soi [oai oisinv [osinv [osinv [osini [oinv [oin v[oin vononv onv fovn osnv on oin ]]]]]]]]
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
         <ButtonIcon />

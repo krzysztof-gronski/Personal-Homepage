@@ -23,7 +23,7 @@ export const Text = styled.span`
   margin-right: 12px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    diplay: none;
+    display: none;
   }
 `;
 

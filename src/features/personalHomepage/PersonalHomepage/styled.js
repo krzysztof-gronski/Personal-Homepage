@@ -13,8 +13,10 @@ export const Container = styled.div`
 export const Icon = styled.img`
   vertical-align: middle;
   margin-left: 5px;
+  width: 30px;
+  vertical-align: text-top;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    height: 16px;
+    width: 24px;
   }
 `;

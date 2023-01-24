@@ -69,6 +69,7 @@ export const Summary = styled.p`
 export const Icon = styled.img`
   margin-right: 4px;
   vertical-align: text-top;
+  width: 24px;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
