@@ -2,7 +2,8 @@
 # **PERSONAL HOMEPAGE - Krzysztof Gronski**
 
 ## Description
-Summary overview about the author, his career path and projects completed. Uses Github API for repositories fetch. Contains necessary details to keep in touch ;) 
+Summary overview about the author, his career path and projects completed. 
+Uses Github API for repositories fetch. Contains necessary details to keep in touch ;) 
 
 ## Contents
 - Brief info about the author
