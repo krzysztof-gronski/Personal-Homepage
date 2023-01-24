@@ -16,9 +16,12 @@ export const Footer = () => (
       <EmailContainer>
         <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
       </EmailContainer>
-      <Paragraph>Im open. Rdy to work.</Paragraph>
+      <Paragraph>
+        Looking forward to new job opportunities and skillset improving. If you
+        need innovative, modern solutions for your valuable project, do not
+        hesitate to contact me.
+      </Paragraph>
       <SocialIcons />
     </Address>
   </Container>
-
 );

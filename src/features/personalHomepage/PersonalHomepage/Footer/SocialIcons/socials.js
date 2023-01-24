@@ -6,12 +6,12 @@ import { ReactComponent as LinkedinIcon } from "./icons/linkedin.svg";
 export const socials = [
   {
     name: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/krzysztof-gronski",
     Icon: styleIcon(GithubIcon),
   },
   {
     name: "Facebook",
-    url: "https://facebook.com",
+    url: "https://www.facebook.com/krzysztof.gronski.3",
     Icon: styleIcon(FacebookIcon),
   },
   {

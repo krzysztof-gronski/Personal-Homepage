@@ -22,7 +22,9 @@ export const MainInformation = () => (
       <Summary>
         <Icon src={faceIcon} />
         <Icon src={laptopIcon} />
-        im developer :O dsfkjdsnjns ;sn odsonsdnf ; osdn osif osiins oin [soi [oai oisinv [osinv [osinv [osini [oinv [oin v[oin vononv onv fovn osnv on oin ]]]]]]]]
+        &nbsp;Creative, fast learning Frontend Developer, passionate about applying
+        skills on collaborative environment, with a desire to provide
+        satisfactionary service and deliver quality products.{" "}
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
         <ButtonIcon />
