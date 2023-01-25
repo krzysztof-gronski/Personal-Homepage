@@ -26,6 +26,7 @@ export const Avatar = styled.img`
   box-shadow: ${({ theme }) => theme.boxShadow};
   animation: slide-in-elliptic-left-fwd 2s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation-delay: 1s;
 
   @keyframes slide-in-elliptic-left-fwd {
     0% {
