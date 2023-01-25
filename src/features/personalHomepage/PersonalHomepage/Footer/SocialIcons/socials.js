@@ -16,7 +16,7 @@ export const socials = [
   },
   {
     name: "Linkedin",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/krzysztof-gronski-937877263/",
     Icon: styleIcon(LinkedinIcon),
   },
 ];
