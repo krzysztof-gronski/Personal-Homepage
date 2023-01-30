@@ -5,7 +5,7 @@ export const skills = [
   "CSS (BEM convention)",
   "CSS Layouts (Flexbox, Grid)",
   "CSS Animations",
-  "AJAX",
+  "AJAX (Fetch, Axios)",
   "React (Hooks, Router)",
   "Redux (Toolkit, Saga)",
   "Git",
