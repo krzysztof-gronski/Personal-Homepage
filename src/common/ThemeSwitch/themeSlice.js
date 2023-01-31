@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getIsDarkThemeFromLocalStorage } from "./ThemeSwitch/isDarkThemeLocalStorage";
+import { getIsDarkThemeFromLocalStorage } from "./isDarkThemeLocalStorage";
 
 const themeSlice = createSlice({
   name: "theme",

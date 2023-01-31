@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../personalHomepageSlice";
+import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "./portfolioSlice";
 import { SubHeader } from "../SubHeader";
 import { Content } from "./Content";
 import { githubUsername } from "./githubUsername";
@@ -25,6 +25,5 @@ export const Portfolio = () => {
       </Header>
       <Content status={repositoriesStatus} repositories={repositories} />
     </Section>
-  
   );
 };

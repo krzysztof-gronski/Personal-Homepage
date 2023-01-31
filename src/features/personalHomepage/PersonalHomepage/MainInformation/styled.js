@@ -24,22 +24,6 @@ export const Avatar = styled.img`
   max-width: 384px;
   border-radius: 50%;
   box-shadow: ${({ theme }) => theme.boxShadow};
-  animation: slide-in-elliptic-left-fwd 2s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation-delay: 1s;
-
-  @keyframes slide-in-elliptic-left-fwd {
-    0% {
-      transform: translateX(-800px) rotateY(30deg) scale(0);
-      transform-origin: -100% 50%;
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0) rotateY(0) scale(1);
-      transform-origin: 1800px 50%;
-      opacity: 1;
-    }
-  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 132px;

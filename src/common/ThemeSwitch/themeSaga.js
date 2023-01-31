@@ -1,5 +1,5 @@
 import { select, call, takeLatest } from "redux-saga/effects";
-import { toggleTheme, selectIsDarkTheme } from "../themeSlice";
+import { toggleTheme, selectIsDarkTheme } from "../ThemeSwitch/themeSlice";
 import { saveIsDarkThemeInLocalStorage } from "./isDarkThemeLocalStorage";
 
 function* saveIsDarkThemeInLocalStorageWorker() {

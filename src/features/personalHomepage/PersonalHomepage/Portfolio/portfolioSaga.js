@@ -1,10 +1,10 @@
 import { call, delay, put, takeLatest } from "redux-saga/effects";
-import { getRepositories } from "./personalHomepageAPI";
+import { getRepositories } from "./portfolioAPI";
 import {
   fetchRepositories,
   fetchRepositoriesError,
   fetchRepositoriesSuccess,
-} from "./personalHomepageSlice";
+} from "./portfolioSlice";
 
 function* fetchRepositoriesWorker({ payload: username }) {
   try {

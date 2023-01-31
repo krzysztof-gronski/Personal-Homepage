@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import { ReactComponent as LightIcon } from "./light.svg";
 
 export const Container = styled.div`
+  margin-top:119.46px;
   display: flex;
   justify-content: flex-end;
 `;
